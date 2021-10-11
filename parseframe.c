@@ -1,3 +1,6 @@
+//parseframe.c
+//author: krunch3r (https://github.com/krunch3r76/)
+//license: GPL 3
 //<INCLUDES>
 #include <stdint.h>
 #include <stdio.h> //review

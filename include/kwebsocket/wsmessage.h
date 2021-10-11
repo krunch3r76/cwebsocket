@@ -1,3 +1,6 @@
+// wsmessage.h
+// author: krunch3r (https://github.com/krunch3r76/)
+// license: GPL 3
 #pragma once
 
 #ifdef __cplusplus

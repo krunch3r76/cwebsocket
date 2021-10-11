@@ -1,3 +1,6 @@
+//wsframe.c
+//author: krunch3r (https://github.com/krunch3r76/)
+//license: GPL 3
 // INTERNAL
 #include "wsmessage.h"
 #include <stddef.h> // NULL
