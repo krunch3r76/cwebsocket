@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	E:/casa/K1sCMakeProjs/2_d/c/v2/wsmessage/include/kwebsocket/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+K1MAXINT_T	./wsmessage.h	/^#define K1MAXINT_T	/;"	d
+K1MAXUINT_T	./wsmessage.h	/^#define K1MAXUINT_T /;"	d
+WSFRAMEHEADER	./wsmessage.h	/^} WSFRAMEHEADER						; \/\/ non-contiguousness resolved with payload and msg pointers$/;"	t	typeref:struct:__anonf249bf470108
+__anonf249bf470108	./wsmessage.h	/^typedef struct {$/;"	s
+d	./wsmessage.h	/^	uint8_t		 	d[14]				; \/\/ maximum length assuming largest possible payload length$/;"	m	struct:__anonf249bf470108	typeref:typename:uint8_t[14]
+mk	./wsmessage.h	/^	uint32_t	 	*mk					;$/;"	m	struct:__anonf249bf470108	typeref:typename:uint32_t *
+msg	./wsmessage.h	/^	uint8_t			*msg				;$/;"	m	struct:__anonf249bf470108	typeref:typename:uint8_t *
+msg_len	./wsmessage.h	/^	K1MAXUINT_T 	msg_len				;$/;"	m	struct:__anonf249bf470108	typeref:typename:K1MAXUINT_T
+payload_len_end	./wsmessage.h	/^	void			*payload_len_end	;$/;"	m	struct:__anonf249bf470108	typeref:typename:void *
